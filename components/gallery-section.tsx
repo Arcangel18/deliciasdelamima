@@ -1,11 +1,12 @@
 'use client'
-import { Star, Quote } from "lucide-react"
+//import { Star, Quote } from "lucide-react"
 import ScrollAnimation from "./scroll-animation"
-import Testimonio from "./testimonio"
+//import Testimonio from "./testimonio"
+import Image from "next/image"; 
 
 
 export default function GallerySection() {
-  const testimonials = [
+ /* const testimonials = [
     {
       name: "María González",
       event: "Boda",
@@ -24,7 +25,7 @@ export default function GallerySection() {
       text: "Una experiencia gastronómica única. Kreti logró capturar perfectamente el espíritu de nuestra celebración familiar.",
       rating: 5,
     },
-  ]
+  ]*/
 
   return (
 
@@ -52,42 +53,42 @@ export default function GallerySection() {
           {/* Gallery Grid */}
           <div className="grid md:grid-cols-3 gap-6 mb-20">
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="/carne.jpg"
                 alt="Plato gourmet elegante"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="/1000933790.jpg"
                 alt="Mesa de buffet elegante"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="/1000932533.jpg"
                 alt="Presentación de postres"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="/1000943407.jpg"
                 alt="Evento de catering"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="1000937852.jpg"
                 alt="Preparación en cocina"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <img
+              <Image
                 src="/1000947664.jpg"
                 alt="Platos artesanales"
                 className="w-full h-64 object-cover"

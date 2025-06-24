@@ -1,12 +1,13 @@
 "use client"
 
-import { useState } from "react"
-import { Truck, Heart, Utensils, Cookie, Sandwich, Globe, Package, Subtitles,Coffee , HandPlatter } from "lucide-react"
-import { title } from "process"
-import { urlToHttpOptions } from "url"
-import { option } from "motion/react-client"
-import { color } from "motion"
-import { Esteban } from "next/font/google"
+import { useState, type ElementType } from "react"
+import { Truck, Heart, Utensils, Cookie, Sandwich, Globe, Package,Coffee , HandPlatter } from "lucide-react"
+//import { Subtitles } from "lucide-react"
+//import { title } from "process"
+//import { urlToHttpOptions } from "url"
+//import { option } from "motion/react-client"
+//import { color } from "motion"
+//import { Esteban } from "next/font/google"
 
 export default function MenuSection() {
   const [activeCategory, setActiveCategory] = useState("arepera")
@@ -30,7 +31,7 @@ type Subcategory = {
 type MenuCategory = {
   title: string;
   subtitle: string;
-  icon: any; // puedes reemplazar 'any' por el tipo real de tus iconos (ReactNode, SVG, componente...)
+  icon: ElementType; // puedes reemplazar 'any' por el tipo real de tus iconos (ReactNode, SVG, componente...)
   color: string;
   subcategories: Record<string, Subcategory>;
 };

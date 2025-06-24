@@ -38,7 +38,7 @@ export default function testimonio(){
                     ))}
                   </div>
                 </div>
-                <p className="text-gray-600 leading-relaxed mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-gray-600 leading-relaxed mb-6 italic">&quot;{testimonial.text}&quot;</p>
                 <div>
                   <h4 className="font-serif font-semibold text-gray-800">{testimonial.name}</h4>
                   <p className="text-[#b69d8f] text-sm">{testimonial.event}</p>
