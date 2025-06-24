@@ -1,5 +1,14 @@
-// OPCIÓN 1: Resend con dominio sandbox (RECOMENDADA para desarrollo)
-export async function sendContactEmailResendProduction(data: any) {
+interface contactData {
+  name: string;
+  phone: string;
+  email: string;
+  service: string;
+  message:string;
+}
+
+
+
+export async function sendContactEmailResendProduction(data: contactData) {
   try {
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",

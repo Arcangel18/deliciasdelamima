@@ -9,7 +9,7 @@ interface Props {
     delay?:number;
 }
 
-export default function scrollAnimation ({children,delay=0.2}:Props){
+export default function ScrollAnimation ({children,delay=0.2}:Props){
 
     const {ref,inView}= useInView({triggerOnce:true, threshold:0.1});
 
