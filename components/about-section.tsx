@@ -53,11 +53,13 @@ export default function AboutSection() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/Cretty-1.jpg"
+                  src="/Cretty-3.jpg"
                   alt="Cretty en su cocina"
-                  width={600}
+                  width={1600}
                   height={800}
                   className="w-full h-120 object-cover"
+                    style={{ objectPosition: '50% 20%' }}
+                  
                 />
               </div>
             </div>
