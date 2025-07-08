@@ -1,5 +1,5 @@
 'use client'
-import { Fullscreen } from "lucide-react";
+//import { Fullscreen } from "lucide-react";
 //import { Star, Quote } from "lucide-react"
 import ScrollAnimation from "./scroll-animation"
 //import Testimonio from "./testimonio"
