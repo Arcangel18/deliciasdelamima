@@ -6,7 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        heroPattern: "url('/areperamovil.jpg')",
+      },
+    },
   },
   plugins: [
     require('tailwindcss-motion')
