@@ -106,7 +106,7 @@ export default function ServicesSection() {
                     <Image
                       width={1600}
                       height={256}
-                      src="/buffet.jpg"
+                      src="/buffett.jpg"
                       alt=""
                       className="w-full h-64 object-cover"
                     />
@@ -124,7 +124,7 @@ export default function ServicesSection() {
                     <Image
                       width={1600}
                       height={256}
-                      src="/inventario.jpg"
+                      src="/asesoriassssss.jpg"
                       alt=""
                       className="w-full h-64 object-cover"
                     />
