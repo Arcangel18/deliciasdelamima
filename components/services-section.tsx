@@ -2,6 +2,8 @@
 
 import { ChefHat, Users, Package } from "lucide-react"
 import ScrollAnimation from "./scroll-animation"
+import Image from "next/image"; 
+//style={{ backgroundImage: "url('/1000932533.jpg')" }} 
 
 export default function ServicesSection() {
   return (
@@ -24,7 +26,7 @@ export default function ServicesSection() {
             {/* Services Grid */}
             <div className="grid md:grid-cols-3 gap-8">
               {/* Catering Service */}
-              <div className="group bg-gradient-to-br  from-[#f8d2c6]/20 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="group bg-gradient-to-br  from-[#f8d2c6]/20 to-white  p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-[#b69d8f]/30 rounded-full mb-6 group-hover:bg-[#b69d8f]/60 transition-colors duration-300">
                   <Users className="h-8 w-8 text-[#b69d8f]" />
                 </div>
@@ -99,6 +101,33 @@ export default function ServicesSection() {
                 className="w-full bg-[#b69d8f] text-white py-3 rounded-full font-serif hover:bg-[#ad8a75] transition-colors duration-300">
                   Ver productos
                 </button>
+              </div>
+              <div className="group bg-gradient-to-br from-[#f8d2c6]/20 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                    <Image
+                      width={1600}
+                      height={256}
+                      src="/buffet.jpg"
+                      alt=""
+                      className="w-full h-64 object-cover"
+                    />
+              </div>
+              <div className="group bg-gradient-to-br from-[#f8d2c6]/20 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                    <Image
+                      width={1600}
+                      height={256}
+                      src="/AreMovil.jpg"
+                      alt=" "
+                      className="w-full h-64 object-cover"
+                    />
+              </div>
+              <div className="group bg-gradient-to-br from-[#f8d2c6]/20 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                    <Image
+                      width={1600}
+                      height={256}
+                      src="/inventario.jpg"
+                      alt=""
+                      className="w-full h-64 object-cover"
+                    />
               </div>
             </div>
           </div>
