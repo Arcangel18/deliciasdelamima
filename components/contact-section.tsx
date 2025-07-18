@@ -75,7 +75,7 @@ export default function ContactSection() {
                           href="mailto:info@deliciasdelamima.com."
                           className="inline-block bg-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-500 transition-colors duration-300"
                         >
-                          delamima.business@outlook.com
+                          info@deliciasdelamima.com
                         </a>
                       </div>
                     </div>
