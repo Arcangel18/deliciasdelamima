@@ -72,7 +72,7 @@ export default function ContactSection() {
                         <h4 className="font-semibold mb-2 text-black">Email</h4>
                         <p className="text-black mb-2">Para consultas detalladas y cotizaciones</p>
                         <a
-                          href="mailto:delamima.business@outlook.com"
+                          href="mailto:info@deliciasdelamima.com."
                           className="inline-block bg-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-500 transition-colors duration-300"
                         >
                           delamima.business@outlook.com

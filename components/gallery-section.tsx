@@ -178,17 +178,29 @@ export default function GallerySection() {
                 
               />
             </div>
-             <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <Image
                width={1600}
                 height={256}
-                src="/ambiente3.png"
+                src="/menu1.jpg"
                 alt="Platos artesanales"
                 className="w-full h-64 object-cover"
-                style={{ objectPosition: '50% 70%' }}
+                style={{ objectPosition: '70% 50%' }}
               />
             </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <Image
+               width={1600}
+                height={256}
+                src="/menu2.jpg"
+                alt="Platos artesanales"
+                className="w-full h-64 object-cover"
+                style={{ objectPosition: '70% 50%' }}
+              />
+            </div>
+           
           </div>
+          
 
 
 
